@@ -1,13 +1,13 @@
 let temperatuur = prompt("Sisestage õhutemperatuur: ");
 // tingimuslause
 if(temperatuur > 4.0) {
-    console.log("J22tumisohtu ei ole")
+    console.log("Jäätumisohtu ei ole")
     alert("Väljas ei ole jäätumisohtu")
 }
 
 if(temperatuur <= 4.0) {
-    console.log("On j22tumisoht")
+    console.log("On jäätumisoht")
     alert("Väljas on jäätumisoht")
 }
 
-//v6i kirjutada lihtsalt else { console.log(on jaatumisoht)}
+//või kirjutada lihtsalt else { console.log(on jäätumisoht)}
