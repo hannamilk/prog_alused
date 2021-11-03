@@ -10,4 +10,4 @@ if(temperatuur <= 4.0) {
     alert("Väljas on jäätumisoht")
 }
 
-//v6i kirjutada lihtsalt else { console.log(on jaatumisoht)}
+//v6i kirjutada lihtsalt else { console.log(on jaatumisoht)} //
