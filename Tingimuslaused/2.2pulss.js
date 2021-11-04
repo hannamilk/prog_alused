@@ -4,23 +4,23 @@ let trenn = prompt("Sisestage treeningtüüp (1, 2 või 3): ");
 
 //pulsi tingimuslaused
 let maxPulsisagedus;
-if(sugu == "M" || sugu == "m"){
+if(sugu === "M" || sugu === "m"){
     maxPulsisagedus = 220 - vanus;
 }
-if(sugu == "N" || sugu == "n"){
+if(sugu === "N" || sugu === "n"){
     maxPulsisagedus = 206 - vanus * 0.88;
 }
 
 //treeningu tingimuslaused
 let maxPulss;
 let minPulss;
-if(trenn == 1) {
+if(trenn === 1) {
     minPulss= maxPulsisagedus * 0.5;
     maxPulss = maxPulsisagedus * 0.7;
-} else if(trenn == 2) {
+} else if(trenn === 2) {
     minPulss= maxPulsisagedus * 0.7;
     maxPulss = maxPulsisagedus * 0.8;
-} else if(trenn == 3) {
+} else if(trenn === 3) {
     minPulss= maxPulsisagedus * 0.8;
     maxPulss = maxPulsisagedus * 0.87;
 }
