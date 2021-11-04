@@ -8,7 +8,7 @@ realine
 kommentaar
  */
 
-console.log("Tere Maailm")
+console.log("Tere Maailm ja teised")
 console.log("See on teine rida")
 
 console.log("See " + "on " + "liitlause ")
