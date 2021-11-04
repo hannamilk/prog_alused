@@ -24,4 +24,4 @@ if(trenn === 1) {
     minPulss= maxPulsisagedus * 0.8;
     maxPulss = maxPulsisagedus * 0.87;
 }
-console.log("Pulsisagedus peaks olema vahemikus " + minPulss + " ja " + maxPulss);
+console.log("Pulsisagedus on vahemikus " + minPulss + " ja " + maxPulss);
