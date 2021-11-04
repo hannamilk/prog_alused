@@ -2,7 +2,7 @@ let vanus = prompt("Sisestage oma vanus: ");
 let sugu = prompt("Sisestage oma sugu (M/m või N/n): ");
 let trenn = prompt("Sisestage treenintüüp (1, 2 või 3): ");
 
-//tingimuslause
+//pulsi tingimuslaused
 let maxPulsisagedus;
 if(sugu == "M" || sugu == "m"){
     maxPulsisagedus = 220 - vanus;
@@ -11,7 +11,7 @@ if(sugu == "N" || sugu == "n"){
     maxPulsisagedus = 206 - vanus * 0.88;
 }
 
-//treening
+//treeningu tingimuslaused
 let maxPulss;
 let minPulss;
 if(trenn == 1) {
