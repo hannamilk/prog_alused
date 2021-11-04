@@ -1,6 +1,6 @@
 let vanus = prompt("Sisestage oma vanus: ");
 let sugu = prompt("Sisestage oma sugu (M/m või N/n): ");
-let trenn = prompt("Sisestage treenintüüp (1, 2 või 3): ");
+let trenn = prompt("Sisestage treeningtüüp (1, 2 või 3): ");
 
 //pulsi tingimuslaused
 let maxPulsisagedus;
