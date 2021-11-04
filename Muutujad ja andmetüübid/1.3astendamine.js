@@ -1,7 +1,7 @@
-var astme_alus = prompt("Sisestage astme alus")
+var astmeAlus = prompt("Sisestage astme alus")
 var astendaja = prompt("Sisestage aste")
 
-let vastus = astme_alus ** astendaja;
+let vastus = astmeAlus ** astendaja;
 
 alert(vastus);
 
